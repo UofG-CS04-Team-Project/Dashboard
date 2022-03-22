@@ -48,15 +48,17 @@ https://www.djangoproject.com/start/overview/
 
 2. Define your Open Weather Map API key in an environment variable called: OPENWEATHERMAP_API_KEY
 
+3. Change into the `lib` directory and run `python pickle_cities.py` to setup the databas required for weather location searching.
+
 4. This application uses djangos authentication system to restrict access to authenticated users, to create an initial admin user, navigate to the main directory of your local version and use "python manage.py createsuperuser". Follow the instructions to create an admin user.
 
-3. In the command line, use "python manage.py" to configure and manage the application, to start the application use "runserver" which will start a version of the server on your local machine.
+5. In the command line, use "python manage.py" to configure and manage the application, to start the application use "runserver" which will start a version of the server on your local machine.
 
-4. Once you procede to the application, you will be promoted to login, use the admin profile you just created to access the application (note you can create more non-admin users using the django admin interface, you can access this by appending /admin to the application url)
+6. Once you procede to the application, you will be promoted to login, use the admin profile you just created to access the application (note you can create more non-admin users using the django admin interface, you can access this by appending /admin to the application url)
 
-5. Procede to the settings page of the application to define your weather settings, define your locations to group and store your sensors, and add your available Cisco Meraki sensors connected to your Cisco Meraki API key.
+7. Procede to the settings page of the application to define your weather settings, define your locations to group and store your sensors, and add your available Cisco Meraki sensors connected to your Cisco Meraki API key.
 
-6. Run the gather.py script to collect data from your Cisco Meraki devices, which will then be shown on your Dashboard.
+7. Run the gather.py script to collect data from your Cisco Meraki devices, which will then be shown on your Dashboard.
 
 ## Technologies
 
