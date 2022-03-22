@@ -10,7 +10,7 @@ Building an automation dashboard based on Django using Cisco's Meraki API.
 
 * Flexible and secure django based authentication.
 
-* Weather integration to view your sensor data in the context of your cities current weather. 
+* Weather integration to view your sensor data in the context of your cities current weather.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Building an automation dashboard based on Django using Cisco's Meraki API.
 
 * Install atleast Python version 3.9.
 
-* Install using git. 
+* Install using git.
 
 ### Installation Instructions
 
@@ -28,7 +28,7 @@ Building an automation dashboard based on Django using Cisco's Meraki API.
 
 ## Usage
 
-### Usage notes 
+### Usage notes
 
 * How to define an environment variable:
 
@@ -44,15 +44,15 @@ https://www.djangoproject.com/start/overview/
 
 ## Usage instructions
 
-1. Define your Cisco Meraki API key in an environment variable called: MERAKI_DASHBOARD_API_KEY
+1. Define your Cisco Meraki API key in an environment variable called: `MERAKI_DASHBOARD_API_KEY`
 
-2. Define your Open Weather Map API key in an environment variable called: OPENWEATHERMAP_API_KEY
+2. Define your Open Weather Map API key in an environment variable called: `OPENWEATHERMAP_API_KEY`
 
-3. Change into the `lib` directory and run `python pickle_cities.py` to setup the databas required for weather location searching.
+3. Change into the `lib` directory and run `python pickle_cities.py` to setup the database required for weather location searching.
 
-4. This application uses djangos authentication system to restrict access to authenticated users, to create an initial admin user, navigate to the main directory of your local version and use "python manage.py createsuperuser". Follow the instructions to create an admin user.
+4. This application uses djangos authentication system to restrict access to authenticated users, to create an initial admin user, navigate to the main directory of your local version and use `python manage.py createsuperuser`. Follow the instructions to create an admin user.
 
-5. In the command line, use "python manage.py" to configure and manage the application, to start the application use "runserver" which will start a version of the server on your local machine.
+5. In the command line, use `python manage.py` to configure and manage the application, to start the application use `runserver` which will start a version of the server on your local machine.
 
 6. Once you procede to the application, you will be promoted to login, use the admin profile you just created to access the application (note you can create more non-admin users using the django admin interface, you can access this by appending /admin to the application url)
 
